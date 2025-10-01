@@ -1,0 +1,39 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+d",
+        "command": "extension.multiCommand.execute",
+        "args": {"command": "multiCommand.scrollAndAlign"}
+    },
+    {
+        "key": "ctrl+u",
+        "command": "extension.multiCommand.execute",
+        "args": {"command": "multiCommand.scrollUpAndAlign"}
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalHasBeenCreated || terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalHasBeenCreated || terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+oem_minus",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "ctrl+oem_plus",
+        "command": "editor.action.fontZoomIn"
+    }
+]

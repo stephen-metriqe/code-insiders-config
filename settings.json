@@ -1,0 +1,369 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.tabSize": 2
+  },
+  "background.autoInstall": true,
+  "background.windowBackgrounds": [
+    "c:/Users/stephent/OneDrive - METRIQE SOLUTIONS PRIVATE LIMITED/Pictures/wally/**"
+  ],
+  "better-comments.tags": [
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#AD49E1",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "#endregion",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#AD49E1",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "#region",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FF2D00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "!",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#3498DB",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "?",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#474747",
+      "italic": false,
+      "strikethrough": true,
+      "tag": "//",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#98C379",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "*",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FFD703",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "todo",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FF01FF",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "fixme",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FFA500",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "note",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#157EFB",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "mark",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#ff000080",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "pending",
+      "underline": false
+    }
+  ],
+  "custom-ui-style.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden"
+  },
+  "custom-ui-style.stylesheet": {
+    ".quick-input-widget": "top: 25vh !important"
+  },
+  "debug.inlineValues": "on",
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Cascadia Code','Comic Mono', Fira Code, 'Cascadia Mono'",
+  "editor.fontLigatures": "'calt', 'liga', 'clig', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.fontSize": 15,
+  "editor.formatOnSave": false,
+  "editor.glyphMargin": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.lineHeight": 20,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.mouseWheelZoom": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "all",
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.snippetSuggestions": "inline",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "constant",
+          "emphasis",
+          "entity",
+          "invalid",
+          "keyword",
+          "markup",
+          "meta",
+          "storage",
+          "string",
+          "strong",
+          "support",
+          "variable"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "errorLens.enabled": true,
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "hint",
+    "info"
+  ],
+  "errorLens.fontStyleItalic": true,
+  "explorer.compactFolders": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 20000,
+  "files.autoSaveWhenNoErrors": true,
+  "files.exclude": {
+    ".vscode": false,
+    "node_modules": false
+  },
+  "git.autofetch": "all",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "importCost.fontStyle": "italic",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "tailwind-fold.autoFold": false,
+  "tailwind-fold.foldedText": "***",
+  "tailwind-fold.foldLengthThreshold": 20,
+  "tailwind-fold.showTailwindImage": false,
+  "tailwind-fold.unfoldedTextOpacity": 0.5,
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "html": "html",
+    "javascript": "javascript"
+  },
+  "terminal.explorerKind": "both",
+  "terminal.integrated.fontFamily": "'Cascadia Code',\"Cascadia Mono\", monospace",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.tags": [
+    "note",
+    "todo",
+    "fixme",
+    "mark",
+    "pending",
+    "done"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "done": {
+      "background": "#00ff0080",
+      "icon": "square-fill",
+      "iconColour": "#00ff0080"
+    },
+    "fixme": {
+      "background": "#FF01FF",
+      "icon": "bug",
+      "iconColour": "#FF01FF"
+    },
+    "mark": {
+      "background": "#157EFB",
+      "icon": "tag",
+      "iconColour": "#157EFB"
+    },
+    "note": {
+      "background": "#FFA500",
+      "icon": "file",
+      "iconColour": "#FFA500"
+    },
+    "pending": {
+      "background": "#FF2D00",
+      "icon": "square",
+      "iconColour": "#FF2D00"
+    },
+    "todo": {
+      "background": "#FFD703",
+      "icon": "tasklist",
+      "iconColour": "#FFD703"
+    }
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "fontWeight": "bold",
+    "foreground": "#000000",
+    "opacity": 90,
+    "type": "tag"
+  },
+  "typescript.inlayHints.enumMemberValues.enabled": false,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "typescript.inlayHints.parameterTypes.enabled": false,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": false,
+  "typescript.inlayHints.variableTypes.enabled": false,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "update.mode": "default",
+  "vscode_custom_css.imports": [
+    "file://C:\\Users\\stephent\\AppData\\Roaming\\Code\\User\\vscode-scripts\\index.js"
+  ],
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\stephent\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+  "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\stephent\\AppData\\Roaming\\Code - Insiders\\User\\nvim\\init.lua",
+  "win-ca.inject": "append",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "window.newWindowDimensions": "maximized",
+  "window.titleBarStyle": "native",
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.customLabels.patterns": {
+    "**/src/**/**/*": "${filename}<-${dirname}<-${dirname(1)}"
+  },
+  "workbench.editor.showTabs": "single",
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "yaml.schemas": {
+    "file:///c%3A/Users/stephent/.vscode-insiders/extensions/atlassian.atlascode-3.9.64/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "workbench.iconTheme": "vscode-icons",
+  "biome.suggestInstallingGlobally": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "Jme797.prettier-vscode-extension"
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "yinfei.luahelper"
+  },
+  "multiCommand.commands": {
+    "multiCommand.scrollAndAlign": {
+      "command": "multiCommand.scrollAndAlign",
+      "interval": 10,
+      "sequence": [
+        {
+          "command": "vscode-neovim.send",
+          "args": "<C-d>"
+        },
+        {
+          "command": "vscode-neovim.send",
+          "args": "zz"
+        }
+      ]
+    },
+    "multiCommand.scrollUpAndAlign": {
+      "command": "multiCommand.scrollAndAlign",
+      "interval": 10,
+      "sequence": [
+        {
+          "command": "vscode-neovim.send",
+          "args": "<C-u>"
+        },
+        {
+          "command": "vscode-neovim.send",
+          "args": "zz"
+        }
+      ]
+    }
+  }
+}
