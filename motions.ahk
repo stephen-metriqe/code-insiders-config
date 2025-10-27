@@ -4,6 +4,10 @@
 global speed := 10  ; Default movement speed
 global fastSpeed := 20  ; Faster movement when Caps Lock + Shift is held
 
+SetCapsLockState('AlwaysOff')
+
+CapsLock:: return
+
 ; Enable Caps Lock as a modifier
 CapsLock & h:: MouseMove -1000, 0, 0, "R" ; far Left
 ; CapsLock & j:: MouseMove 0, 500, 0, "R" ; Up
@@ -32,6 +36,23 @@ CapsLock & w:: Send("{Home}")
 
 CapsLock & [:: Send("^{Home}") ;Ctrl + home
 CapsLock & ]:: Send("^{End}")  ;Ctrl + end
+
+; ============================================================
+; Use Left Alt + letter to send numbers
+!m:: Send("1")   ; Left Alt + U → 1
+!,:: Send("2")   ; Left Alt + I → 2
+!.:: Send("3")   ; Left Alt + O → 3
+!j:: Send("4")   ; Left Alt + P → 4
+!k:: Send("5")   ; Left Alt + J → 5
+!l:: Send("6")   ; Left Alt + K → 6
+!u:: Send("7")   ; Left Alt + L → 7
+!i:: Send("8")   ; Left Alt + ; → 8
+!o:: Send("9")   ; Left Alt + ' → 9
+!;:: Send("0")   ; Left Alt + / → 0
+!p:: Send("{+}")   ; Left Alt + / → 0
+!/:: Send("-")   ; Left Alt + / → 0
+; ============================================================
+![:: Send("{^}") ;
 
 ; ============================================================
 ; CapsLock & o:: {

@@ -19,9 +19,7 @@
     "editor.tabSize": 2
   },
   "background.autoInstall": true,
-  "background.windowBackgrounds": [
-    "c:/Users/stephent/OneDrive - METRIQE SOLUTIONS PRIVATE LIMITED/Pictures/wally/**"
-  ],
+  "background.windowBackgrounds": [],
   "better-comments.tags": [
     {
       "backgroundColor": "transparent",
@@ -141,13 +139,17 @@
   "editor.fontFamily": "'Cascadia Code','Comic Mono', Fira Code, 'Cascadia Mono'",
   "editor.fontLigatures": "'calt', 'liga', 'clig', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
   "editor.fontSize": 15,
-  "editor.formatOnSave": false,
-  "editor.glyphMargin": true,
+  "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.indentation": true,
   "editor.inlayHints.enabled": "on",
   "editor.lineHeight": 20,
   "editor.lineNumbers": "relative",
+  "scm.diffDecorations": "none",
+  // "errorLens.gutterIconsEnabled": false,
+  "debug.gutterMiddleClickAction": "logpoint",
+  "editor.showFoldingControls": "never",
+  "editor.glyphMargin": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
@@ -198,7 +200,6 @@
     "info"
   ],
   "errorLens.fontStyleItalic": true,
-  "explorer.compactFolders": false,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
@@ -309,7 +310,6 @@
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "native",
   "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.customLabels.patterns": {
     "**/src/**/**/*": "${filename}<-${dirname}<-${dirname(1)}"
   },
@@ -325,7 +325,6 @@
   "totalTypeScript.hideBasicTips": false,
   "docker.extension.enableComposeLanguageServer": false,
   "docker.extension.dockerEngineAvailabilityPrompt": false,
-  "workbench.iconTheme": "vscode-icons",
   "biome.suggestInstallingGlobally": false,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -334,12 +333,12 @@
     "editor.defaultFormatter": "Jme797.prettier-vscode-extension"
   },
   "[lua]": {
-    "editor.defaultFormatter": "yinfei.luahelper"
+    "editor.defaultFormatter": "sumneko.lua"
   },
   "multiCommand.commands": {
     "multiCommand.scrollAndAlign": {
       "command": "multiCommand.scrollAndAlign",
-      "interval": 10,
+      "interval": 5,
       "sequence": [
         {
           "command": "vscode-neovim.send",
@@ -353,7 +352,7 @@
     },
     "multiCommand.scrollUpAndAlign": {
       "command": "multiCommand.scrollAndAlign",
-      "interval": 10,
+      "interval": 5,
       "sequence": [
         {
           "command": "vscode-neovim.send",
@@ -364,6 +363,36 @@
           "args": "zz"
         }
       ]
-    }
-  }
+    },
+  },
+  "advancedNewFile.exclude": {
+    "/node_modules": true,
+    "node_modules_electron": true,
+    "dev": true,
+    "dist": true
+  },
+  "advancedNewFile.showInformationMessages": true,
+  "advancedNewFile.convenienceOptions": [
+    "last",
+    "current",
+    "root"
+  ],
+  "database-client.autoSync": true,
+  "[sql]": {
+    "editor.defaultFormatter": "cweijan.vscode-database-client2"
+  },
+  "python.defaultInterpreterPath": "c:\\Python312\\python.exe",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.callArgumentNames": "partial",
+  "python.analysis.typeCheckingMode": "standard",
+  "yaml.maxItemsComputed": 50000,
+  "vsicons.dontShowNewVersionMessage": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "workbench.colorTheme": "GitHub Dark Default"
 }
