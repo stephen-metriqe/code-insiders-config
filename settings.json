@@ -10,7 +10,7 @@
   },
   "[typescript]": {
     "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescriptreact]": {
     "editor.codeActionsOnSave": {
@@ -19,7 +19,9 @@
     "editor.tabSize": 2
   },
   "background.autoInstall": true,
-  "background.windowBackgrounds": [],
+  "background.windowBackgrounds": [
+    "c:/Users/stephent/OneDrive - METRIQE SOLUTIONS PRIVATE LIMITED/Pictures/wally/**"
+  ],
   "better-comments.tags": [
     {
       "backgroundColor": "transparent",
@@ -136,7 +138,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "'Cascadia Code','Comic Mono', Fira Code, 'Cascadia Mono'",
+  "editor.fontFamily": "'Cascadia Mono','Cascadia Code','Comic Mono', Fira Code",
   "editor.fontLigatures": "'calt', 'liga', 'clig', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
   "editor.fontSize": 15,
   "editor.formatOnSave": true,
@@ -394,5 +396,10 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
-  "workbench.colorTheme": "GitHub Dark Default"
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "vs-nomo-dark",
+  "explorer.compactFolders": false,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
 }
